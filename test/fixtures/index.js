@@ -19,5 +19,23 @@ export default {
       this.getImage(),
       this.getImage()
     ]
+  },
+
+  getImagesByTag () {
+    return [
+      this.getImage(),
+      this.getImage()
+    ]
+  },
+
+  getUser () {
+    return {
+      id: '17012017',
+      name: 'Dulbran',
+      username: 'Pepito',
+      email: 'dul&bran4ever@miaugram.test',
+      password: 'dulceBebe',
+      createdAt: new Date().toString()
+    }
   }
 }
