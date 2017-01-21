@@ -1,3 +1,4 @@
 export default {
-  db: {}
+  db: {},
+  secret: process.env.MIAUGRAM_SECRET || 'mi4u'
 }
